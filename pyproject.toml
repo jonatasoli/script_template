@@ -10,6 +10,8 @@ python = "^3.10"
 loguru = "^0.6.0"
 SQLAlchemy = "^1.4.31"
 mysql-connector-python = "^8.0.28"
+httpx = "^0.22.0"
+python-decouple = "^3.6"
 
 [tool.poetry.dev-dependencies]
 ipdb = "^0.13.9"
