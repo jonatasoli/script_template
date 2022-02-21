@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from loguru import logger
 from decouple import config
 
-from model import Championship
+from src.models import Championship
 
 
 def get_session():

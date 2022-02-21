@@ -1,7 +1,6 @@
 import pytest
 from src.main import get_data_futstats
 
-
 fake_api = dict(category='test')
 
 def test_response_is_list():
